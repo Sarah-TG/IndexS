@@ -1,1 +1,59 @@
-# IndexS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page</title>
+    <style>
+        /*Making the body look nice*/
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        /*Styling the headings*/
+        h1 {
+            color: #2c3e50
+            text-align: center;
+        }
+        /*Making the image responsive*/
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+        /*Styling the links*/
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /*Styling the paragraph*/
+        p {
+            line-height: 1.6;
+            colour: #333;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    
+        <h1>Welcome to My Profile Page</h1>
+        <!-- Adding an image-->
+         <img src="Sara profile pic.png" alt="Profile picture">
+         <h2>About Me</h2>
+         <p>Hello! I'm learning web development. This is my first webpage where I'm practicing HTML and CSS.</p>
+    
+    <h2> My Favorite Websites</h2>
+    <ul>
+        <li><a href="https://github.com/Sarah-TG" target="_blank">GitHub</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Coding" target="_blank">Wikipedia</a></li>
+        
+    </body>
+    </html>
